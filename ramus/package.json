@@ -1,0 +1,25 @@
+{
+  "name": "ramus",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "postbuild": "mkdir -p .next/server/JavaSybaseLink/dist && cp -r node_modules/sybase/JavaSybaseLink/dist/JavaSybaseLink.jar .next/server/JavaSybaseLink/dist/"
+  },
+  "dependencies": {
+    "next": "15.5.2",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "sybase-promised": "^1.0.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
