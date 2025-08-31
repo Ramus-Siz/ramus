@@ -9,10 +9,13 @@
     "postbuild": "mkdir -p .next/server/JavaSybaseLink/dist && cp -r node_modules/sybase/JavaSybaseLink/dist/JavaSybaseLink.jar .next/server/JavaSybaseLink/dist/"
   },
   "dependencies": {
+    "@types/tedious": "^4.0.14",
     "next": "15.5.2",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "sybase-promised": "^1.0.4"
+    "sybase": "^1.2.3",
+    "sybase-promised": "^1.0.4",
+    "tedious": "^18.6.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
